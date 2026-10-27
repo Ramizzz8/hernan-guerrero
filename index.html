@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hernán Guerrero Aguilera · Hostelería, Logística y Bienestar</title>
+  <meta name="description" content="Portafolio profesional de Hernán Guerrero Aguilera: camarero de piso y de barra, operario de bodega y carretillero, masajista y quiromasajista. Valencia, disponibilidad inmediata.">
+  <meta name="theme-color" content="#FAFAF8">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Hernán Guerrero Aguilera · Portafolio profesional">
+  <meta property="og:description" content="Hostelería, logística y bienestar. Experiencia internacional en Colombia, Países Bajos y España.">
+  <meta property="og:url" content="https://ramizzz8.github.io/hernan-guerrero/">
+  <meta property="og:image" content="https://ramizzz8.github.io/hernan-guerrero/img/hernan.jpg">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232C5F6E'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23FAFAF8' text-anchor='middle'%3EHG%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#perfiles">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="logo" href="#inicio" aria-label="Inicio">HG</a>
+      <nav aria-label="Principal">
+        <ul class="nav">
+          <li><a href="#perfiles">Perfiles</a></li>
+          <li><a href="#fortalezas">Fortalezas</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contacto" class="nav__cta">Contactar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow" id="hero-ubicacion"></p>
+          <h1 id="hero-nombre"></h1>
+          <p class="hero__titular" id="hero-titular"></p>
+          <p class="hero__sub" id="hero-sub"></p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacto">Contactar</a>
+            <a class="btn btn--ghost" href="#perfiles">Ver perfiles</a>
+          </div>
+        </div>
+        <figure class="hero__photo">
+          <img src="img/hernan.jpg" alt="Retrato de Hernán Guerrero Aguilera" width="480" height="600">
+        </figure>
+      </div>
+    </section>
+
+    <!-- PERFILES -->
+    <section class="section" id="perfiles" aria-labelledby="perfiles-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Perfiles profesionales</p>
+          <h2 id="perfiles-title">Elige el sector que te interesa</h2>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Sectores" id="tabs"></div>
+        <div class="panel" id="panel" role="tabpanel" tabindex="-1"></div>
+      </div>
+    </section>
+
+    <!-- FORTALEZAS -->
+    <section class="section section--alt" id="fortalezas" aria-labelledby="fortalezas-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">En cualquier puesto</p>
+          <h2 id="fortalezas-title">Fortalezas</h2>
+        </header>
+        <ul class="strengths" id="strengths"></ul>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="section" id="cv" aria-labelledby="cv-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Descargas</p>
+          <h2 id="cv-title">Currículum por puesto</h2>
+          <p class="section__lead">Un CV adaptado a cada tipo de oferta, en PDF.</p>
+        </header>
+        <ul class="downloads" id="downloads"></ul>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section--contact" id="contacto" aria-labelledby="contacto-title">
+      <div class="container contact">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">¿Hablamos?</h2>
+          <p class="section__lead" id="contacto-disp"></p>
+        </div>
+        <ul class="contact__list" id="contact-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Hernán Guerrero Aguilera</p>
+      <ul class="footer__links">
+        <li><a href="#hosteleria">Hostelería</a></li>
+        <li><a href="#logistica">Logística</a></li>
+        <li><a href="#bienestar">Bienestar</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
